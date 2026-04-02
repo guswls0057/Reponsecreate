@@ -2,33 +2,33 @@ import { useState, useRef } from "react";
 import { Search, ChevronRight, ChevronLeft } from "lucide-react";
 
 // ── Hero
-import heroImg from "figma:asset/14d2fecdbf7653a9d71368c5d818864c90989c0a.png";
+import heroImg from "../assets/14d2fecdbf7653a9d71368c5d818864c90989c0a.png";
 
 // ── Product images
-import prodImg1 from "figma:asset/d48c75188f91a10887f98773d3d752241341e480.png";
-import prodImg2 from "figma:asset/0a77e078790626b0639d2311697c86c3f1ce951c.png";
-import prodImg3 from "figma:asset/8be7303e3d03e42c024291d2d6959464b16ebeb5.png";
-import prodImg4 from "figma:asset/e2b28d6ce67eee985cddeb730ba79ffa5da05617.png";
-import prodImg5 from "figma:asset/b0a2567907c8c8d7091d5b9de4459473aec92fec.png";
-import prodImg6 from "figma:asset/624ed16cd90102d8031ea2894815f2386088b30c.png";
-import prodImg7 from "figma:asset/3e96658ede831fbab15f7f3db491d020e7faee92.png";
+import prodImg1 from "../assets/d48c75188f91a10887f98773d3d752241341e480.png";
+import prodImg2 from "../assets/0a77e078790626b0639d2311697c86c3f1ce951c.png";
+import prodImg3 from "../assets/8be7303e3d03e42c024291d2d6959464b16ebeb5.png";
+import prodImg4 from "../assets/e2b28d6ce67eee985cddeb730ba79ffa5da05617.png";
+import prodImg5 from "../assets/b0a2567907c8c8d7091d5b9de4459473aec92fec.png";
+import prodImg6 from "../assets/624ed16cd90102d8031ea2894815f2386088b30c.png";
+import prodImg7 from "../assets/3e96658ede831fbab15f7f3db491d020e7faee92.png";
 
 // ── Oval section images
-import stayLoopImg from "figma:asset/36b47627ddf86781977068338378851af2c24266.png";
-import wePopImg from "figma:asset/2c2ceb69d25db10b7f171e6dd68ab036425f0738.png";
-import zeroWasteImg from "figma:asset/fb7f0dec55ab393a772946f7ce8e6c75ace83a8a.png";
+import stayLoopImg from "../assets/36b47627ddf86781977068338378851af2c24266.png";
+import wePopImg from "../assets/2c2ceb69d25db10b7f171e6dd68ab036425f0738.png";
+import zeroWasteImg from "../assets/fb7f0dec55ab393a772946f7ce8e6c75ace83a8a.png";
 
 // ── Category section decorative food images
-import foodImg1 from "figma:asset/6b7f8319b7ee8897319de1fa99b993d8ab3cae42.png";
-import foodImg2 from "figma:asset/fa7efd3aee4e9589eb61778d11b2efe3ef4554ef.png";
-import foodImg3 from "figma:asset/df75b3b11fb0303d7fa7bfcde64af3eee89d5485.png";
-import foodImg4 from "figma:asset/c61320b46522fb615b5544b186afee09baa1d8cf.png";
+import foodImg1 from "../assets/6b7f8319b7ee8897319de1fa99b993d8ab3cae42.png";
+import foodImg2 from "../assets/fa7efd3aee4e9589eb61778d11b2efe3ef4554ef.png";
+import foodImg3 from "../assets/df75b3b11fb0303d7fa7bfcde64af3eee89d5485.png";
+import foodImg4 from "../assets/c61320b46522fb615b5544b186afee09baa1d8cf.png";
 
 // ── Instagram grid
-import instaImg1 from "figma:asset/2a98710a24963c1f7ed7aa6413d24d09d3a9d1ad.png";
-import instaImg2 from "figma:asset/616d8808e783bc2379d84bacfe69ee934b534414.png";
-import instaImg3 from "figma:asset/46dc6740605efd9b33bdda5f9230b8103b3fed2d.png";
-import instaImg4 from "figma:asset/5b39e6d91f4bf1a05466eebe125ee16dc0630a7a.png";
+import instaImg1 from "../assets/2a98710a24963c1f7ed7aa6413d24d09d3a9d1ad.png";
+import instaImg2 from "../assets/616d8808e783bc2379d84bacfe69ee934b534414.png";
+import instaImg3 from "../assets/46dc6740605efd9b33bdda5f9230b8103b3fed2d.png";
+import instaImg4 from "../assets/5b39e6d91f4bf1a05466eebe125ee16dc0630a7a.png";
 
 // ── Brand colours
 const G = "#4f5d3d";   // green
